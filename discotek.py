@@ -51,5 +51,4 @@ def main(path):
             continue
 
 
-print(getcwd())
 main('./')
