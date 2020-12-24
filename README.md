@@ -1,11 +1,16 @@
 # DiscoTek
 A small app to read and rename audio files according to ID3 tag contents. 
-
+Requires FFMpeg installed and added to system path.
 
 Changelog:
 
+(v0.4):\
+    - implimented song-stubbing for Audd.io track identifier.
+    - implimented AudD.io track identifier
+    - added handling for files with no ID3 tag header
+
 (v0.3):\
-    - implimented AudioDB tag lookup\ 
+    - implimented AudioDB tag lookup\
     - began work on Audd.io track identifier, need to write something to send a 20 second stub of the song instead of the entire file (reduce bandwidth use, no need to go through enterprise endpoint)
 
 (v0.2):\
