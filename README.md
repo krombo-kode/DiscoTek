@@ -4,6 +4,10 @@ A small app to read and rename audio files according to ID3 tag contents.
 
 Changelog:
 
+(v0.3):\
+    - implimented AudioDB tag lookup\ 
+    - began work on Audd.io track identifier, need to write something to send a 20 second stub of the song instead of the entire file (reduce bandwidth use, no need to go through enterprise endpoint)\
+
 (v0.2):\
     - added detection for existing tracks with same name in DiscoTek Library (will add prompt to enable copies in future version)\
     - added framework for dealing with tracks that have no/corrupt tags\

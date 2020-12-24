@@ -1,7 +1,10 @@
 from mutagen.easyid3 import EasyID3
 import sys
+import requests
+import json
 from os import rename, mkdir, getcwd, walk
 from os.path import isfile, isdir, join
+from bs4 import BeautifulSoup
 
 
 def rename_track(input_file, output_directory):
@@ -18,6 +21,7 @@ def rename_track(input_file, output_directory):
         print(f'{new_filename} already exists in the DiscoTek Library!')
     else:
         rename(input_file, destination)
+    return
 
 
 def generate_track_list(path):
@@ -68,25 +72,66 @@ def bad_track_prompt(bad_tag_tracks):
     else:
         print("Please input Y or N.")
         bad_track_prompt(bad_tag_tracks)
+    return
 
 
 def process_bad_tag_tracks(bad_tag_tracks, output_directory):
     for track in bad_tag_tracks:
-        found_tags = tag_finder(track)
+        track_identity = track_identifier(track)
+        found_tags = tag_finder(
+            track_identity["track"], track_identity["artist"])
         # Should return a dict of tags
-        repaired_track = tag_fixer(track, found_tags)
+        tag_fixer(track, found_tags)
         # Add tags to track
-        process_tracks([repaired_track], output_directory)
+        process_tracks([track], output_directory)
+    return
 
 
-def tag_finder(track):
-    # Will use AudD to find track, AudioDB to generate tags, return tags as dict
-    return track
+def track_identifier(track):
+    identity = {}
+    data = {
+        "api_token": "test"
+        "return": "spotify"
+    }
+    files = {
+        "file": open(track, "rb")
+    }
+    result = requests.post("https://api.audd.io/", data, files)
+    identity["track"] = ""
+    identity["artist"] = ""
+    # Will use AudD to find track name and artist name, return as dict
+    return result
+
+
+def track_stub(track):
+    pass
+
+
+def tag_finder(track_name, artist):
+    tags = {}
+    try:
+        res = requests.get(
+            f"https://theaudiodb.com/api/v1/json/1/searchtrack.php?s={artist}&t={track_name}")
+        soup = json.loads(res.text)
+        tags["track"] = soup["track"][0]["strTrack"]
+        tags["artist"] = soup["track"][0]["strArtist"]
+        tags["album"] = soup["track"][0]["strAlbum"]
+        tags["genre"] = soup["track"][0]["strGenre"]
+#        tags["thumbnail"] = soup["track"][0]["strTrackThumb"]
+    except:
+        print("Wow, that's a unique song, we couldn't find tags for it!")
+        pass
+    return tags
 
 
 def tag_fixer(track, tags):
-    # will read from tag_finder dict and apply tags to track
-    return {}
+    track_tags = EasyID3(track)
+    track_tags["artist"] = tags["artist"]
+    track_tags["title"] = tags["track"]
+    track_tags["album"] = tags["album"]
+    track_tags["genre"] = tags["genre"]
+    track_tags.save(v2_version=3)
+    return
 
 
 def main(path):
