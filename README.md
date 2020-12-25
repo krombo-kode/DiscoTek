@@ -6,7 +6,7 @@ Changelog:
 
 (v0.5):\
     - application now removes empty directories after completion\
-    - application now removes temporary audio stub file after processing each bad track (tag can't accidentally be reused on next track)\
+    - application now removes temporary audio stub file after processing each bad track (stub can't accidentally be reused on next track)\
     - files that app fails to fix are placed in a separate directory for user to do with as they please
 
 (v0.4):\
