@@ -1,0 +1,450 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:x="http://www.yandex.ru/xscript" xmlns:lego="https://lego.yandex-team.ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+
+    <title>Яндекс.Народ</title>
+    
+	<script type="text/javascript" src="//yandex.st/jquery/1.4.2/jquery.min.js"></script>    
+	
+    <!--[if gt IE 7]><!--><link rel="stylesheet" href="//narod2.yandex.ru/css/disk/_fm.css"/><!--<![endif]-->  
+    <!--[if lte IE 7]><link rel=stylesheet href="//narod2.yandex.ru/css/disk/_fm-ie.css"><![endif]-->
+	
+	<link rel="shortcut icon" href="//yandex.st/lego/_/3dq5S6sVf9f2qd0X_2BOPzmQ60A.ico"/>
+	<link rel="icon" type="image/vnd.microsoft.icon" href="//yandex.st/lego/_/3dq5S6sVf9f2qd0X_2BOPzmQ60A.ico" />
+	<script type="text/javascript" src="//yandex.st/lego/2.4-32/common/js/_common.js"></script>
+	<style type="text/css">em.nda {display:block;color:red;padding-top:5px;}</style>
+	<script language="javascript" type="text/javascript" src="http://css.yandex.net/css/narod/disk/jquery.share.js?v7"></script>
+	<script language="javascript" type="text/javascript" src="http://css.yandex.net/css/narod/disk/jquery.comments.js?v5"></script>
+	<script type="text/javascript" src="/js/_index.js?v=1.0.0.42"></script>
+	<script type="text/javascript">//<!--
+	Lego.init({
+		login:'',
+		locale:'ru',
+		id:'narod',
+		yandexuid:'',
+		'lego-static-host':'',
+		'passport-host':'http:\/\/passport.yandex.ru',
+		'pass-host':'http:\/\/pass.yandex.ru',
+		'social-host':'http:\/\/social.yandex.ru',
+		'retpath':'http:\/\/narod.yandex.ru\/',
+		'social-retpath':'http:\/\/narod.yandex.ru\/lego\/blocks\/i-social\/closer\/i-social__closer.html',
+		'index':true,
+		oframebust: {}
+	});
+	//--></script><script type="text/javascript">//<!--
+	document.documentElement.id = "js";
+	//--></script><script type="text/javascript">//<!--
+	if (document.compatMode != "CSS1Compat") document.documentElement.className += " quirks";
+	//--></script>
+	<script language="javascript" type="text/javascript" src="/js/jquery.modal.js"></script>
+	<script type="text/javascript" src="/js/jquery.uploader.js?v=1.0.0.43"></script>
+	<script type="text/javascript" src="/js/jquery.flash.js"></script>
+	
+    	
+		
+	
+    
+    <!--[if gt IE 7]><!--><link rel="stylesheet" href="//css.yandex.net/css/narod/disk/_fm_1.3.css"/><!--<![endif]-->  
+    <!--[if lte IE 7]><link rel=stylesheet href="//css.yandex.net/css/narod/disk/_fm_1.3-ie.css"><![endif]-->
+	
+
+    
+
+</head>
+<body class="not-logged">
+
+
+
+<table class="l-head">
+<tr>
+    <td class="l-head__g">
+		<i class="b-statcounter">
+			<i style="background:url(http://www.tns-counter.ru/V13a****yandex_ru/ru/CP1251/tmsec=yandex_narod-file/)"></i>
+		</i>
+        <noscript class="i-flashcookie i-flashcookie_type_iframe g-js" onclick="return {name:'i\-flashcookie'}"><img src="http://kiks.yandex.ru/fu/" alt=""></noscript>
+
+
+    </td>
+    <td class="l-head__l">
+        <div class="b-head-logo">
+            <div class="b-head-logo__logo">
+                <a class="b-head-logo__link" href="http://www.yandex.ru"><img class="b-head-logo__img" border="0" alt="Яндекс" src="//yandex.st/lego/_/X31pO5JJJKEifJ7sfvuf3mGeD_8.png"/></a>
+            </div>
+        </div>
+    </td>
+    <td class="l-head__gl"><i class="l-head__gap"></i></td>
+    <td class="l-head__c">
+        <!--noindex-->
+        <table class="b-head-tabs g-js" onclick="return {name:'b\-head\-tabs','default':''}">
+        <tr>
+            <td class="b-head-tabs__item b-head-tabs__tab"><a class="b-head-tabs__link" href="http://www.yandex.ru">Поиск</a>
+            </td>
+            <td class="b-head-tabs__item b-head-tabs__tab"><a class="b-head-tabs__link" href="http://mail.yandex.ru">Почта</a>
+            </td>
+        
+            <td class="b-head-tabs__item b-head-tabs__tab">
+                <a class="b-head-tabs__link" href="http://calendar.yandex.ru">Календарь</a></td>
+            <td class="b-head-tabs__item b-head-tabs__tab"><a class="b-head-tabs__link" href="http://money.yandex.ru">Деньги</a>
+            </td>
+            <td class="b-head-tabs__item b-head-tabs__tab"><a class="b-head-tabs__link" href="http://moikrug.ru">Мой
+                                                                                                                 Круг</a>
+            </td>
+            <td class="b-head-tabs__item b-head-tabs__tab"><a class="b-head-tabs__link" href="http://fotki.yandex.ru">Фотки</a>
+            </td>
+            <td class="b-head-tabs__item b-head-tabs__tab"><strong><a href="/">Народ</a></strong></td>
+            <td class="b-head-tabs__item b-head-tabs__tab"><a class="b-head-tabs__link" href="http://cards.yandex.ru">Открытки</a>
+            </td>
+            <td class="b-head-tabs__tab b-head-tabs__more">
+                <div class="b-dropdown g-js" onclick="return {name:'b\-dropdown'}">
+                    <ul class="b-dropdown__list">
+                        <li class="b-dropdown__item b-dropdown__visible">
+                            <a class="b-dropdown__or" href="http://www.yandex.ru/all"><span class="b-pseudo-link">ещё</span></a>
+                        </li>
+                        <li class="b-dropdown__item"><a class="b-head-tabs__link" href="http://auto.yandex.ru">Авто</a>
+                        </li>
+                        <li class="b-dropdown__item">
+                            <a class="b-head-tabs__link" href="http://afisha.yandex.ru">Афиша</a></li>
+                        <li class="b-dropdown__item">
+                            <a class="b-head-tabs__link" href="http://blogs.yandex.ru">Блоги</a></li>
+                        <li class="b-dropdown__item">
+                            <a class="b-head-tabs__link" href="http://video.yandex.ru">Видео</a></li>
+                        <li class="b-dropdown__item"><a class="b-head-tabs__link" href="http://images.yandex.ru">Картинки</a>
+                        </li>
+                        <li class="b-dropdown__item"><a class="b-head-tabs__link" href="http://maps.yandex.ru">Карты</a>
+                        </li>
+                        <li class="b-dropdown__item">
+                            <a class="b-head-tabs__link" href="http://yaca.yandex.ru">Каталог</a></li>
+                        <li class="b-dropdown__item">
+                            <a class="b-head-tabs__link" href="http://market.yandex.ru">Маркет</a></li>
+                        <li class="b-dropdown__item">
+                            <a class="b-head-tabs__link" href="http://news.yandex.ru">Новости</a></li>
+                        <li class="b-dropdown__item">
+                            <a class="b-head-tabs__link" href="http://pogoda.yandex.ru">Погода</a></li>
+                        <li class="b-dropdown__item"><a class="b-head-tabs__link" href="http://rasp.yandex.ru">Расписания</a>
+                        </li>
+                        <li class="b-dropdown__item"><a class="b-head-tabs__link" href="http://slovari.yandex.ru">Словари</a>
+                        </li>
+                        <li class="b-dropdown__item"><a class="b-head-tabs__link" href="http://tv.yandex.ru">Телепрограмма</a>
+                        </li>
+                        <li class="b-dropdown__item"><a class="b-head-tabs__link" href="http://my.ya.ru">Я.ру</a></li>
+                        <li class="b-dropdown__item b-dropdown__line">
+                            <a class="b-head-tabs__link" href="http://soft.yandex.ru">Программы</a></li>
+                        <li class="b-dropdown__item"><a class="b-head-tabs__link" href="http://www.yandex.ru/all">Все
+                                                                                                                  сервисы</a>
+                        </li>
+                    </ul>
+                </div>
+            </td>
+		
+        </tr>
+        </table>
+        <!--/noindex-->
+        <div class="b-head-line"><strong class="b-head-name"><a href="/">народ</a></strong></div>    
+		
+        </td>
+        
+	<td class="l-head__gr"><i class="l-head__gap"></i></td>
+    <td class="l-head__r">
+        <table class="b-head-userinfo">
+        <tr>
+        
+            <td class="b-head-userinfo__td"></td>
+            <td class="b-head-userinfo__entry">
+                <a class="b-pseudo-link" href="http://passport.yandex.ru/passport?mode=auth&amp;msg=narod&amp;retpath=http://narod.yandex.ru/" onmousedown="Lego.ch('narod.login.enter',this)">Войти</a><form class="b-domik b-domik_type_popup g-js g-hidden" action="http://passport.yandex.ru/passport?mode=auth&amp;msg=narod&amp;from=narod&amp;retpath=http://narod.yandex.ru/" method="post" onclick="return {name:'b\-domik_type_popup',title:'',register:''}">
+<input name="login"><input name="passwd" type="password"><input name="twoweeks" type="checkbox" value="yes">
+</form>
+            </td>
+        
+        </tr>
+        <tr>
+            <td class="b-head-userinfo__td" colspan="2">
+                <div class="b-head-userinfo__help"><a class="b-head-userinfo__link" href="http://help.yandex.ru/narod/">Помощь</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="b-head-userinfo__td" colspan="2"></td>
+        </tr>
+        <tr>
+            <td class="b-head-userinfo__td" colspan="2"></td>
+        </tr>
+        </table>
+    </td>
+    <td class="l-head__g"><i class="l-head__gap"></i></td>
+</tr></table>
+
+
+<span style="display:none" class="i-metrika i-metrika_type_js g-js" onclick="return {name:'i\-metrika',counter:723014}"></span><noscript><img src="//mc.yandex.ru/watch/723014" style="position:absolute" alt=""></noscript>
+
+
+
+    
+
+   <table class="l-page l-page-help b-page-help">
+    <tr>
+        <td class="l-page-gap"></td>
+        <td class="l-page-left">
+            <div class="h-page-left">
+            </div>
+        </td>
+        <td class="l-page-center">
+            <div class="h-page-center">
+				<h2>Скачать файл</h2>
+				<p>
+					Вы скачиваете файл с сайта <a href="http://vigistudio.narod.ru">http://vigistudio.narod.ru</a>, размещённого на сервисе бесплатного хостинга <a href="http://narod.ru/" target="_blank">Narod.ru</a>
+				</p>
+				<p>
+				<br/>
+					Чтобы скачать запрашиваемый вами файл, нажмите на ссылку: <a href="http://vigistudio.narod.ru/studio/music/Trancemusic/Chemical_Brothers_-_Block_Rockin_Beats.mp3" class="h-link"><strong>http://vigistudio.narod.ru/studio/music/Trancemusic/Chemical_Brothers_-_Block_Rockin_Beats.mp3</strong></a>
+				</p>
+										
+				<div class="b-tizer b-tizer-ybar b-bar g-hidden">
+					<div class="b-corners b-corners-gray2">
+						<i class="b-corners-rt"><i></i></i>
+						<i class="b-corners-rb"><i></i></i>
+						<i class="b-corners-lb"><i></i></i>
+						<i class="b-corners-lt"><i></i></i>
+
+						<div class="b-corners-body">
+							<a href="#"><i class="b-old-icon"><i></i></i></a>
+								<div class="b-browser">
+									<span class="g-ff-activex g-hidden">
+									<a href="http://bar.yandex.ru/firefox/info/">Установить Яндекс.Бар</a>&nbsp;&mdash; панель инструментов для браузера с быстрым поиском и актуальной информацией о новых письмах, погоде, пробках.<br />
+									</span>
+									<span class="g-ie-activex g-hidden">
+									<a href="http://bar.yandex.ru/info/">Установить Яндекс.Бар</a>&nbsp;&mdash; панель инструментов для браузера с быстрым поиском и актуальной информацией о новых письмах, погоде, пробках.<br />
+									</span>
+								</div>
+	                            <div class="b-no-browser g-hidden">
+	                            Хотите скачивать файлы еще быстрее?<br/>
+	                            Установите <a class="b-bar-link-ff" href="http://www.yandex.ru/redir?dtype=stred&amp;pid=177&amp;cid=1666&amp;url=http://download.yandex.ru/firefox/ru/FirefoxSetup.exe">Firefox</a> или <a class="b-bar-link-ie" href="http://www.yandex.ru/redir?dtype=stred&amp;pid=180&amp;cid=1667&amp;url=http://download.yandex.ru/ie/en/IE7Setup.exe">Internet Explorer</a> c новым Яндекс.Баром, и вам не понадобится вводить контрольные цифры.
+	                            </div>
+						</div>
+					</div>
+				</div>
+				<br/>
+				
+				<br>
+				<p>
+Компания «Яндекс», владелец бесплатного хостинга Narod.ru, никак не связана с авторами и содержанием этого файла (см. <a href="http://narod.yandex.ru/agreement/">Пользовательское Соглашение</a>). Оценка возможного риска , связанного с безопасностью загрузки данного файла, ложится на вас. Будьте внимательны!
+				</p>
+            </div>
+        </td>
+<td class="l-page-captcha-right">
+		<div class="b-promo-upload">
+		    <i class="ill"></i>
+		    <h3>Есть, чем&nbsp;поделиться?</h3>
+		    <p>Свои файлы можно закачать на&nbsp;<a href="/">главной&nbsp;странице</a> сервиса.</p>
+		    <img class="rotate g-hidden" src="http://passport.yandex.ru/i/next1.gif" alt="" name="img_reloading"/>
+		</div>
+	    </td>
+    </tr>
+    </table>
+<style type="text/css">
+.b-page-help h2 {
+	font-size:185%;
+	margin:1em 0 0.5em;
+}
+.b-page-help {margin:0px;}
+.h-page-center {padding-right:2em;}
+.b-tizer {width:40em;}
+.l-page-captcha-right {width:20em;}
+</style>
+<div class="b-foot">
+    <table class="b-foot__layout">
+    <tr>
+        <td class="b-foot__layout__gap"><i class="b-foot__layout__gap__i"></i></td>
+        <td class="b-foot__layout__column b-foot__layout__column_left">
+        	
+        </td>
+        <td class="b-foot__layout__column">
+            <div class="b-foot__links"><a class="b-foot__link" href="/agreement/">Пользовательское соглашение</a></div>
+        </td>
+        <td class="b-foot__layout__column">
+        	<div class="b-foot__info"><a class="b-foot__link" href="http://help.yandex.ru/narod">Помощь</a></div>
+            <div class="b-foot__info">Всего на сервисе 3380062 сайта
+             и 21544336 файлов</div>
+        </td>
+        <td class="b-foot__layout__column b-foot__layout__column_right">
+            <div class="b-foot__copyright">© 2000—2011 «<a class="b-foot__link" href="http://www.yandex.ru">Яндекс</a>»</div>
+        </td>
+        <td class="b-foot__layout__gap"><i class="b-foot__layout__gap__i"></i></td>
+    </tr>
+    </table>
+</div>
+
+</body>
+</html>
+
+<script type="text/javascript" language="javascript">
+	var g_time = 10;
+	var g_timer;
+	var mlink = "";
+	$().ready(function(){
+		window.setTimeout(function(){
+//			var el = $("img");
+//			$(el).addClass("g-hidden").attr("name","img_reloading");
+//			$("body").append(el);
+			if ($(".b-bar").size()>0)
+			{
+				var fflink = "";
+				var ielink = "";
+				if ($.browser.lang == "ru")
+				{
+					ielink = "http://www.yandex.ru/redir?dtype=stred&pid=180&cid=1667&url=http://download.yandex.ru/ie/ru/IE7Setup.exe";
+				}
+				else{
+					ielink = "http://www.yandex.ru/redir?dtype=stred&pid=180&cid=1667&url=http://download.yandex.ru/ie/en/IE7Setup.exe";
+				}
+				if ($.browser.msie())
+				{
+					$(".b-browser").removeClass("g-hidden");
+					mlink = "http://www.yandex.ru/redir?dtype=stred&pid=12&cid=1639&url=http://download.yandex.ru/yandex-pack/narod/YandexBarIESetup.exe";
+					$(".b-tizer-ybar").removeClass("g-hidden");
+					$(".b-corners-body").removeClass("g-hidden");
+				}
+				else if ($.browser.firefox())
+				{
+					$(".b-browser").removeClass("g-hidden");
+					mlink = "http://www.yandex.ru/redir?dtype=stred&pid=12&cid=1640&url=http://download.yandex.ru/yandex-pack/narod/YandexBar.xpi";
+					$(".b-tizer-ybar").removeClass("g-hidden");
+					$(".b-corners-body").removeClass("g-hidden");
+				}
+				else{
+					$(".b-browser").addClass("g-hidden");
+					if ($.browser.win()){
+						$(".b-no-browser").removeClass("g-hidden");				
+						$(".b-tizer-ybar").removeClass("g-hidden");
+						$(".b-corners-body").removeClass("g-hidden");
+					}
+					else{
+						$(".b-tizer-ybar").addClass("g-hidden");
+					}
+					mlink = "";
+				}
+				fflink = "http://www.yandex.ru/redir?dtype=stred&pid=177&cid=1666&url=http://download.yandex.ru/firefox/ru/FirefoxSetup.exe";
+				
+				if (mlink != ""){
+					$(".b-bar").removeClass("g-hidden");
+					$(".b-bar-link").attr("href",mlink);
+					$(".b-bar-link-ff").attr("href",fflink);
+					$(".b-bar-link-ie").attr("href",ielink);
+				}
+			}
+			if ($.browser.msie())
+			{
+				$(".g-ff").addClass("g-hidden");
+				$(".g-ie").removeClass("g-hidden");
+				$(".g-ie-activex").removeClass("g-hidden");
+				var href = $(".h-link").attr("href");
+				$.ajax({
+					url:'/disk/rtt/narodchecker'
+				});
+				$("body").append("<form method='get' id='post' action='"+href+"'></form>");				
+				$(".h-link").click(function(){
+					$("#post").submit();
+					if ($("#iebar").attr("checked")){
+						window.setTimeout(function(){
+							top.location='http://bar.yandex.ru/info/';
+						},200);				
+					}
+					return false;
+				});
+			}
+			else if ($.browser.firefox()){
+				$.ajax({
+					url:'/disk/rtt/narodchecker'
+				});
+				$(".g-ff-activex").removeClass("g-hidden");
+				var href = $(".h-link").attr("href");
+				
+				$("body").append("<form method='get' id='post' action='"+href+"'></form>");				
+				$(".h-link").click(function(){
+					$("#post").submit();
+					if ($("#ffbar").attr("checked")){
+						window.setTimeout(function(){
+							top.location='http://bar.yandex.ru/firefox/info/';
+						},200);				
+					}
+					return false;
+				});
+			}
+			else{
+				$(".b-bar").removeClass("g-hidden");
+				$(".b-browser").addClass("g-hidden");
+				if ($.browser.win()){
+					if ($.browser.opera()){
+						$(".b-browser").removeClass("g-hidden");
+					}
+					$(".b-no-browser").removeClass("g-hidden");				
+					$(".b-tizer-ybar").removeClass("g-hidden");
+					$(".b-corners-body").removeClass("g-hidden");
+				}
+				else{
+					$(".b-tizer-ybar").addClass("g-hidden");
+				}
+			
+			}
+			$(".h-link").click(function(){
+				window.clearTimeout(g_timer);
+				$(".counter").remove();
+			});			
+		},100);
+	});
+	function g_time_tick()
+	{
+		g_time--;
+		$(".num").html(g_time);
+		if (g_time<=0)
+		{
+			$(".counter").addClass("g-hidden");
+			var href = $(".h-link").attr("href");
+			$("body").append("<form method='get' id='post' action='"+href+"'></form>");
+			$("#post").submit();
+		}
+		else{
+			g_timer = window.setTimeout("g_time_tick()",1000);
+		}
+	}
+
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(c/a))+String.fromCharCode(c%a+161)};while(c--){if(k[c]){p=p.replace(new RegExp(e(c),'g'),k[c])}}return p}('Ö ¡(){® Ø={\'¥\':¡(){¢ £.¥},\'©\':{\'±\':¡(){¢ £.©.±},\'¯\':¡(){¢ £.©.¯}},\'¬\':¡(){¢ £.¬},\'¶\':¡(){¢ £.¶},\'º\':¡(){¢ £.º},\'Á\':¡(){¢ £.Á},\'À\':¡(){¢ £.À},\'½\':¡(){¢ £.½},\'¾\':¡(){¢ £.¾},\'¼\':¡(){¢ £.¼},\'·\':¡(){¢ £.·},\'Â\':¡(){¢ £.Â},\'³\':¡(){¢ £.³},\'Ä\':¡(){¢ £.Ä},\'Ã\':¡(){¢ £.Ã},\'Å\':¡(){¢ £.Å},\'¸\':¡(){¢ £.¸}};$.¥=Ø;® £={\'¥\':\'¿\',\'©\':{\'±\':²,\'¯\':\'¿\'},\'¬\':\'¿\',\'¶\':§,\'º\':§,\'Á\':§,\'À\':§,\'½\':§,\'¾\':§,\'¼\':§,\'·\':§,\'Â\':§,\'³\':§,\'Ä\':§,\'Ã\':§,\'Å\':§,\'¸\':§};Î(® i=0,«=».ì,°=».í,¦=[{\'¤\':\'Ý\',\'¥\':¡(){¢/Ù/.¨(°)}},{\'¤\':\'Ú\',\'¥\':¡(){¢ Û.³!=²}},{\'¤\':\'È\',\'¥\':¡(){¢/È/.¨(°)}},{\'¤\':\'Ü\',\'¥\':¡(){¢/Þ/.¨(°)}},{\'ª\':\'¶\',\'¤\':\'ß Ñ\',\'¥\':¡(){¢/à á â/.¨(«)},\'©\':¡(){¢ «.¹(/ã(\\d+(?:\\.\\d+)+)/)}},{\'¤\':\'Ì\',\'¥\':¡(){¢/Ì/.¨(«)}},{\'¤\':\'Í\',\'¥\':¡(){¢/Í/.¨(°)}},{\'¤\':\'Ï\',\'¥\':¡(){¢/Ï/.¨(«)}},{\'¤\':\'Ð\',\'¥\':¡(){¢/Ð/.¨(«)}},{\'ª\':\'·\',\'¤\':\'å Ñ\',\'¥\':¡(){¢/Ò/.¨(«)},\'©\':¡(){¢ «.¹(/Ò (\\d+(?:\\.\\d+)+(?:b\\d*)?)/)}},{\'¤\':\'Ó\',\'¥\':¡(){¢/æ|Ó/.¨(«)},\'©\':¡(){¢ «.¹(/è:(\\d+(?:\\.\\d+)+)/)}}];i<¦.Ë;i++){µ(¦[i].¥()){® ª=¦[i].ª?¦[i].ª:¦[i].¤.Õ();£[ª]=É;£.¥=¦[i].¤;® ­;µ(¦[i].©!=²&&(­=¦[i].©())){£.©.¯=­[1];£.©.±=Ê(­[1])}ê{® Ç=Ö ë(¦[i].¤+\'(?:\\\\s|\\\\/)(\\\\d+(?:\\\\.\\\\d+)+(?:(?:a|b)\\\\d*)?)\');­=«.¹(Ç);µ(­!=²){£.©.¯=­[1];£.©.±=Ê(­[1])}}×}};Î(® i=0,´=».ä,¦=[{\'ª\':\'¸\',\'¤\':\'ç\',\'¬\':¡(){¢/é/.¨(´)}},{\'¤\':\'Ô\',\'¬\':¡(){¢/Ô/.¨(´)}},{\'¤\':\'Æ\',\'¬\':¡(){¢/Æ/.¨(´)}}];i<¦.Ë;i++){µ(¦[i].¬()){® ª=¦[i].ª?¦[i].ª:¦[i].¤.Õ();£[ª]=É;£.¬=¦[i].¤;×}}}();',77,77,'function|return|Private|name|browser|data|false|test|version|identifier|ua|OS|result|var|string|ve|number|undefined|opera|pl|if|aol|msie|win|match|camino|navigator|mozilla|icab|konqueror|Unknown|flock|firefox|netscape|linux|safari|mac|Linux|re|iCab|true|parseFloat|length|Flock|Camino|for|Firefox|Netscape|Explorer|MSIE|Mozilla|Mac|toLowerCase|new|break|Public|Apple|Opera|window|Konqueror|Safari|KDE|AOL|America|Online|Browser|rev|platform|Internet|Gecko|Windows|rv|Win|else|RegExp|userAgent|vendor'.split('|')));
+
+
+
+</script>
+</body>
+</html>
