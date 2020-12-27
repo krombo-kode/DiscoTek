@@ -37,25 +37,13 @@ def generate_track_list(path):
     return onlytracks
 
 
-def create_output_library():
-    directory = "DiscoTek Library"
+def create_directory(directory):
     parent_dir = getcwd()
     path = join(parent_dir, directory)
     if not isdir(path):
         mkdir(path)
     else:
-        print("Existing DiscoTek Library Found!")
-    return path + "\\"
-
-
-def create_unrecoverable_tracks_folder():
-    directory = "Unrecoverable Tracks"
-    parent_dir = getcwd()
-    path = join(parent_dir, directory)
-    if not isdir(path):
-        mkdir(path)
-    else:
-        print("Existing Unrecoverable Tracks Folder Found!")
+        print(f"Existing {directory} Folder Found!")
     return path + "\\"
 
 
@@ -64,6 +52,7 @@ def process_tracks(track_queue, output_directory):
     for track in track_queue:
         try:
             rename_track(track, output_directory)
+            print(f"Moved {track} to {output_directory}")
         except:
             failed_tracks.append(track)
             continue
@@ -71,19 +60,21 @@ def process_tracks(track_queue, output_directory):
 
 
 def bad_track_prompt(bad_tag_tracks):
-    print(bad_tag_tracks)
-    print(
-        f'Found {len(bad_tag_tracks)} tracks with bad tags. Do you want to try to fix them?')
-    response = ""
-    while response != "Y" or response != "N":
-        response = input("Y/N?> ").upper()
-        if response == "Y":
-            return True
-        elif response == "N":
-            return False
-        else:
-            print("Please input Y or N.")
-    return
+    if len(bad_tag_tracks) != 0:
+        print(
+            f'Found {len(bad_tag_tracks)} tracks with bad tags. Do you want to try to fix them?')
+        response = ""
+        while response != "Y" or "N":
+            response = input("Y/N?> ").upper()
+            if response == "Y":
+                return True
+            elif response == "N":
+                return False
+            else:
+                print("Please input Y or N.")
+                bad_track_prompt(bad_tag_tracks)
+    else: 
+        return False
 
 
 def bad_track_mover(track, directory):
@@ -98,7 +89,7 @@ def bad_track_mover(track, directory):
 
 
 def process_bad_tag_tracks(bad_tag_tracks, output_directory, api_token):
-    unrecoverable_output_directory = create_unrecoverable_tracks_folder()
+    unrecoverable_output_directory = create_directory("Unrecoverable Tracks")
     for track in bad_tag_tracks:
         try:
             track_stubber(track)
@@ -126,8 +117,6 @@ def track_identifier(api_token):
     identity["track"] = track_info["result"]["title"]
     identity["artist"] = track_info["result"]["artist"]
     identity["album"] = track_info["result"]["album"]
-    # identity["genre"] = track_info["result"]["genre"]
-    # Will use AudD to find track name and artist name, return as dict
     return identity
 
 
@@ -141,7 +130,6 @@ def track_stubber(track):
         return True
     except:
         raise Exception(f"{track} is corrupt. Skipping.")
-        # print(f"{track} is corrupt. Skipping.")
 
 
 def tag_fixer(track, tags):
@@ -153,8 +141,6 @@ def tag_fixer(track, tags):
             track_tags.add_tags()
         except:
             raise Exception(f"Couldn't fix {track}")
-            # print(f"Couldn't fix {track}")
-            # return
     track_tags["artist"] = tags["artist"]
     track_tags["title"] = tags["track"]
     track_tags["album"] = tags["album"]
@@ -175,7 +161,7 @@ def cleanup():
 
 def main(path):
     track_queue = generate_track_list(path)
-    output_directory = create_output_library()
+    output_directory = create_directory("DiscoTek Library")
     bad_tag_tracks = process_tracks(track_queue, output_directory)
     if bad_track_prompt(bad_tag_tracks):
         api_token = input("API Token:> ")

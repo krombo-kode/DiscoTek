@@ -4,14 +4,19 @@ Requires FFMpeg installed and added to system path.
 
 Changelog:
 
+(v0.6):\
+    - combined create_output_library and create_unrecoverable_output functions into single create_directory function that takes desired directory name as argument\
+    - fixed bug where program was placing tracks that had bad tags into unrecoverable file directory regardless of whether the recovery function was successful or not
+
+
 (v0.5):\
     - application now removes empty directories after completion\
     - application now removes temporary audio stub file after processing each bad track (stub can't accidentally be reused on next track)\
     - files that app fails to fix are placed in a separate directory for user to do with as they please
 
 (v0.4):\
-    - implimented song-stubbing for Audd.io track identifier.
-    - implimented AudD.io track identifier
+    - implimented song-stubbing for Audd.io track identifier.\
+    - implimented AudD.io track identifier\
     - added handling for files with no ID3 tag header
 
 (v0.3):\
@@ -32,7 +37,8 @@ Changelog:
 
 
 Future hopeful features:\
-    - making use of AudD and AudioDB APIs to add tag data to tracks that are missing it (possibly album art as well?)\
+    - making use of AudD API add tag data to tracks that are missing it*complete*\
     - a UI of some sort\
-    - a function to create a new library structure to store songs by artist/album *complete*
+    - a function to create a new library structure to store songs by artist/album *complete*\
+    - option to process wma and m4a files as well (will convert to mp3 in the process)
 
