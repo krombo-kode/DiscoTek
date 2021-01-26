@@ -1,4 +1,6 @@
 # DiscoTek
+# Development temporarily on hold while I find a good python GUI
+
 A small app to read and rename audio files according to ID3 tag contents. 
 Requires FFMpeg installed and added to system path.
 
