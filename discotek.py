@@ -14,6 +14,7 @@ def rename_track(input_file, output_directory):
     extension = str(input_file)[-4:]
     title = tags['title'][0]
     artist = tags['artist'][0]
+    album = tags['album'][0]
     new_filename = title + " - " + artist + extension
     destination_path = output_directory + "\\" + artist.title()
     if not isdir(destination_path):
@@ -35,6 +36,19 @@ def generate_track_list(path):
     if len(onlytracks) == 0:
         print("No tracks found!")
     return onlytracks
+
+def generate_art_list(path):
+    onlyart = []
+    for dirpath, _, fileList in walk(path):
+        for x in fileList:
+            if x.endswith(".jpg") and dirpath.startswith("./Music"):
+                onlyart.append(join(dirpath, x))
+    if len(onlyart) == 0:
+        print("No tracks found!")
+    return onlyart
+
+
+
 
 
 def create_directory(directory):
